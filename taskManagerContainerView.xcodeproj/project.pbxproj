@@ -8,24 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		DA90D34220EE2DCB005E90E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA90D34120EE2DCB005E90E3 /* AppDelegate.m */; };
-		DA90D34520EE2DCB005E90E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA90D34420EE2DCB005E90E3 /* ViewController.m */; };
 		DA90D34820EE2DCB005E90E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA90D34620EE2DCB005E90E3 /* Main.storyboard */; };
 		DA90D34A20EE2DD1005E90E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA90D34920EE2DD1005E90E3 /* Assets.xcassets */; };
 		DA90D34D20EE2DD1005E90E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA90D34B20EE2DD1005E90E3 /* LaunchScreen.storyboard */; };
 		DA90D35020EE2DD1005E90E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA90D34F20EE2DD1005E90E3 /* main.m */; };
+		DA90D35B20EE4400005E90E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA90D35A20EE4400005E90E3 /* ViewController.m */; };
+		DA90D36120EE48CB005E90E3 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA90D36020EE48CB005E90E3 /* CollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DA90D33D20EE2DCB005E90E3 /* taskManagerContainerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taskManagerContainerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA90D34020EE2DCB005E90E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DA90D34120EE2DCB005E90E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DA90D34320EE2DCB005E90E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DA90D34420EE2DCB005E90E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DA90D34720EE2DCB005E90E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA90D34920EE2DD1005E90E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA90D34C20EE2DD1005E90E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA90D34E20EE2DD1005E90E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA90D34F20EE2DD1005E90E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA90D35920EE4400005E90E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DA90D35A20EE4400005E90E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DA90D35F20EE48CB005E90E3 /* CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		DA90D36020EE48CB005E90E3 /* CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +63,10 @@
 			children = (
 				DA90D34020EE2DCB005E90E3 /* AppDelegate.h */,
 				DA90D34120EE2DCB005E90E3 /* AppDelegate.m */,
-				DA90D34320EE2DCB005E90E3 /* ViewController.h */,
-				DA90D34420EE2DCB005E90E3 /* ViewController.m */,
+				DA90D35920EE4400005E90E3 /* ViewController.h */,
+				DA90D35A20EE4400005E90E3 /* ViewController.m */,
+				DA90D35F20EE48CB005E90E3 /* CollectionViewCell.h */,
+				DA90D36020EE48CB005E90E3 /* CollectionViewCell.m */,
 				DA90D34620EE2DCB005E90E3 /* Main.storyboard */,
 				DA90D34920EE2DD1005E90E3 /* Assets.xcassets */,
 				DA90D34B20EE2DD1005E90E3 /* LaunchScreen.storyboard */,
@@ -141,8 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA90D34520EE2DCB005E90E3 /* ViewController.m in Sources */,
+				DA90D35B20EE4400005E90E3 /* ViewController.m in Sources */,
 				DA90D35020EE2DD1005E90E3 /* main.m in Sources */,
+				DA90D36120EE48CB005E90E3 /* CollectionViewCell.m in Sources */,
 				DA90D34220EE2DCB005E90E3 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

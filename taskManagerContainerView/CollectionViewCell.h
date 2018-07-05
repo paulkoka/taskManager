@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CollectionViewCell.h
 //  taskManagerContainerView
 //
 //  Created by paul on 05/07/2018.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CollectionViewCell : UICollectionViewCell
+@property(strong, nonatomic) UILabel* collectionCell;
 @end
